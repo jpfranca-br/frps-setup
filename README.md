@@ -58,6 +58,7 @@ The script will prompt you to enter the following information:
 - **Number of Domains**: The number of domains you want to configure.
 - **Domain Names**: Enter each domain name one by one.
 - **FRP Token**: Enter a secure token that will later be used by FRP clients to authenticate.
+- **password**: Enter the password for the currently logged user
 
 #### Example Inputs:
 
@@ -67,6 +68,7 @@ Enter the number of domains: 2
 Enter domain 1: server.foobar.com
 Enter domain 2: internal_service_name.foobar.com
 Enter the FRP token: abc-def-ghi-jkl
+[sudo] password for foobar:
 ```
 
 ### 5. Wait for the script to complete

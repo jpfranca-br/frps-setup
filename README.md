@@ -1,6 +1,6 @@
 # FRPS Server Configuration Script
 
-This script is designed to configure and set up an [FRPS (Fast Reverse Proxy Server)](https://github.com/fatedier/frp/blob/dev/conf/frps_full_example.toml) environment on a clean Ubuntu Linux server. It automates the process of configuring the server for domain-based reverse proxying and security using Let's Encrypt SSL certificates and FRP.
+This script is designed to configure and set up a [Fast Reverse Proxy Server - FRP](https://github.com/fatedier/frp) environment on a clean Ubuntu Linux server. It automates the process of configuring the server for domain-based reverse proxying and security using Let's Encrypt SSL certificates and FRP.
 
 ## Prerequisites
 

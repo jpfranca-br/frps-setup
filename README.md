@@ -129,8 +129,3 @@ customDomains = ["internal_service_name.foobar.com"]
 ## Credits
 
 This script simplifies the process of setting up a secure FRP server environment. For more details about FRP, visit the [official FRP GitHub repository](https://github.com/fatedier/frp).
-``` 
-
-### Usage Notes:
-- Replace `<repository-url>` and `<repository-directory>` with the appropriate values for your GitHub repository.
-- Add additional troubleshooting or advanced configuration notes as needed.

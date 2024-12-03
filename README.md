@@ -24,10 +24,12 @@ Before running this script, ensure you have:
 Run the following commands to create a user (we will use `foobar` in this example):
 
 ```bash
+
 ssh root@server.foobar.com
 adduser foobar
 usermod -aG sudo foobar
 exit
+
 ```
 
 ### 2. Log in as the new user
@@ -35,7 +37,9 @@ exit
 Log in as the newly created user:
 
 ```bash
+
 ssh foobar@server.foobar.com
+
 ```
 
 ### 3. Download and execute the setup script

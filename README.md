@@ -47,7 +47,7 @@ ssh foobar@server.foobar.com
 Download setup.sh and execute it:
 
 ```bash
-wget https://github.com/jpfranca-br/frps-setup/blob/main/frps-setup.sh
+wget -O frps-setup.sh https://github.com/jpfranca-br/frps-setup/blob/main/frps-setup.sh
 chmod +x frps-setup.sh
 ./frps-setup.sh
 ```

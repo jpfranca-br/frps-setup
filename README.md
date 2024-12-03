@@ -40,11 +40,10 @@ ssh foobar@server.foobar.com
 
 ### 3. Download and execute the setup script
 
-Clone the repository containing the setup script and execute it:
+Download setup.sh and execute it:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+wget https://github.com/jpfranca-br/frps-setup/blob/main/setup.sh
 chmod +x setup.sh
 ./setup.sh
 ```

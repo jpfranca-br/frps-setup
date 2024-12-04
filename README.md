@@ -44,10 +44,10 @@ ssh foobar@server.foobar.com
 
 ### 3. Download and execute the setup script
 
-Download setup.sh and execute it:
+Clone this repository and execute frps-setup.sh:
 
 ```bash
-sudo apt install git && git clone https://github.com/jpfranca-br/frps-setup.git && cd frps-setup && chmod +x frps-setup.sh && ./frps-setup.sh
+sudo apt install git -y && rm -rf frps-setup && git clone https://github.com/jpfranca-br/frps-setup.git && cd frps-setup && chmod +x frps-setup.sh && ./frps-setup.sh
 ```
 
 ### 4. Enter the required data
